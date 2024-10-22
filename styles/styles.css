@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 11 jul 2024, 19:45:55
+    Author     : smoki
+*/
+
+@font-face {
+    font-family: "montserrat";
+    src: url("../fonts/montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+.montserrat {
+    font-family: "montserrat";
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.italica {
+    font-style: italic;
+}
+
+html{
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    margin-top: 1em;
+    
+}
+
+ table {
+                border-collapse: collapse;
+                width: 100%;
+                border: 1px solid blue;
+                margin-bottom: 2em;
+                margin-top: 2em;
+            }
+            table td {
+                border: 1px solid blue;
+                text-align: center;
+                padding: 1.3rem;
+                font-family: "roboto";
+            }
+            .button {
+                border-radius: .5rem;
+                color: white;
+                background-color: blue;
+                padding: 1rem;
+                text-decoration: none;
+                margin-top: 2em;
+                font-family: 'montserrat';
+            }
+            .notification {
+                background-color: #f2f2f2;
+                padding: 1rem;
+                margin-bottom: 1rem;
+                font-family: 'montserrat';
+            }
+
